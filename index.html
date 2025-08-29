@@ -1,0 +1,40 @@
+<!---Part One--> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Linking the external Javascript file with the html file.-->
+        <link rel="stylesheet" href="style.css">
+        <title>Javascript </title>
+    </head>
+    <body>
+        <h1 id="removing">Javascript Assignment</h1>
+        <p id="firstchange">Hello. I am starting to understand Javascript</p>
+       
+        <!--Creating the input field for the user to input their age -->
+       <label for="AgeNumber">Type your age</label>
+        <input type="text" id="AgeNumber" placeholder="E.g 20" onchange="checkAge(this)" required><br><br>
+        
+
+    <!--Part Two-->
+    <!--Creating the input fields for the user to enter the two numbers we are going to use-->
+    <label for="FirstNumber">First Number</label>
+   <input type="text" id="FirstNumber" placeholder="e.g 10" required><br><br>
+
+ 
+   <label for="SecondNumber">Second Number</label>
+   <input type="text" id="SecondNumber" placeholder="E.g 20" required><br><br>
+   <button onclick="handleInput()">Submit here </button>
+         <p id="result"></p>
+         <!--Part Three-->
+<ul id="myNewList"></ul>
+        
+         <button onclick="startloop()">Starting Loop</button>
+<p id="output"></p>
+
+
+         <script src="script.js"></script>
+
+
+
+    </body>
+</html>
